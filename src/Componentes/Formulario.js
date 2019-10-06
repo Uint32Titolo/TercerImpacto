@@ -41,7 +41,7 @@ const FormExampleFieldControlId = () => (
       id='form-button-control-public'
       control={Button}
       content='Confirm'
-      color='blue'
+      color='vk'
     />
   </Form>
 )
