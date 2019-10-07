@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import Formulario from './Formulario'
 import Suculentas from './Suculentas'
 import Animales from './Animales'
+import Galeria from './Galeria/Galeria'
 import { Container, Grid } from 'semantic-ui-react'
 
 
@@ -46,6 +47,15 @@ export default class MenuPointing extends Component {
             onClick={this.handleItemClick}
           />
         </Link>
+
+        <Link to="/galeria">
+          <Menu.Item
+            name='galeria'
+            active={activeItem === 'galeria'}
+            onClick={this.handleItemClick}
+          />
+        </Link>
+
         </Menu>
 
         <Switch>
@@ -69,6 +79,12 @@ export default class MenuPointing extends Component {
         <Switch>
             <Route path="/cactus">
               <Animales/>
+            </Route>
+        </Switch>
+
+        <Switch>
+            <Route path="/galeria">
+              <Galeria/>
             </Route>
         </Switch>
 
