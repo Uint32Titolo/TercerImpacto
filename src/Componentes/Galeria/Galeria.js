@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import { Gallery, GalleryImage } from "react-gesture-gallery";
 
 const images = [
-  "https://images.unsplash.com/photo-1559666126-84f389727b9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1356&q=80",
-  "https://images.unsplash.com/photo-1557389352-e721da78ad9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-  "https://images.unsplash.com/photo-1553969420-fb915228af51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80",
-  "https://images.unsplash.com/photo-1550596334-7bb40a71b6bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-  "https://images.unsplash.com/photo-1550640964-4775934de4af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+  "https://http2.mlstatic.com/planta-suculenta-o-crasa-miniatura-surtidas-D_NQ_NP_988169-MCO26922842260_022018-F.jpg",
+  "https://ae01.alicdn.com/kf/HTB1WjWhkVmWBuNjSspdq6zugXXaZ/Planta-suculenta-multicapa-Artificial-Bonsai-simulaci-n-planta-suculenta-plantas-verdes-flor-hogar-Sala-ocio-decoraci.jpg",
+  "https://i0.wp.com/ae01.alicdn.com/kf/HTB1w0k5XuL2gK0jSZPhq6yhvXXap/2-25-pulgadas-cerámica-estilo-nieve-suculenta-planta-maceta-Cactus-maceta-contenedor-maceta-bandejas-de-bambú.jpg",
+  "https://www.flordeplanta.com.ar/wp-content/uploads/2012/09/cactus-cuidados4.jpg",
+  "https://images.casashops.com/square1168/41347/cement-planta-crasa-cactus-verde-a-9-cm%3B-ø-11-cm.jpg"
 ];
 
 function App() {
