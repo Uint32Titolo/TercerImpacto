@@ -21,7 +21,7 @@ function  Footer(props){
                                 <Link to="/cactuss">Cactus</Link> 
                             </Grid.Row>
                             <Grid.Row>
-                                <Link to="/suculentas">Galeria</Link> 
+                                <Link to="/galeria">Galeria</Link> 
                             </Grid.Row>
                             <Grid.Row>
                                 <Link to="/plantas">Plantas</Link> 

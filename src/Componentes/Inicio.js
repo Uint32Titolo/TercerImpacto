@@ -57,7 +57,7 @@ const HomePag=() => (
                   <p style={{fontSize: '0.9em', paddingBottom: '1em'}}>
                    La Galeria está llena de fotos sobre la naturaleza en especial nuestras queridas suculentas
                   </p>
-                  <Link to="/suculentas">
+                  <Link to="/galeria">
                     <Button color="orange" fluid size="small" circular >
                       Conocer Más
                     </Button>
