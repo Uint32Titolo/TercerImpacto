@@ -18,7 +18,7 @@ export default class MenuPointing extends Component {
 
     return (
       <Router>
-        <Menu pointing secondary size='large'>
+        <Menu pointing secondary size='large' attached='top'style={{backgroundColor:"#01003B"}} inverted >
         <Link to="/">
           <Menu.Item
             name='Inicio'

@@ -14,7 +14,7 @@ const HomePag=() => (
         
         <Grid.Column>
 
-          <Header as="h1" textAlign="center" color='green' style={{ fontSize: '3.5em',  paddingTop: '0.5em' }} >
+          <Header as="h1" textAlign="center"style={{backgroundColor:"#41bedd"}} color='orange' style={{ fontSize: '3.5em',  paddingTop: '0.5em' }} >
             Wiki Nature
           </Header>
         
@@ -40,7 +40,7 @@ const HomePag=() => (
                 <Segment as="h3" color='#212121' inverted >
                   <img src={Cactuss} width="100%; " vspace="10"/>
                   <p style={{fontSize: '0.9em', paddingBottom: '1em'}}>
-                   Los cactus conforman la familia de plantas suculentas denominada Cactaceae. Estas especies, como buenas crasas que son, se caracterizan por acumular agua y nutrientes en sus tejidos, así, pueden adaptarse sin problema al hábitat en el que se encuentren.
+                   Los cactus  conforman la familia de plantas suculentas denominada Cactaceae. Estas especies, como buenas crasas que son, se caracterizan por acumular agua y nutrientes en sus tejidos, así, pueden adaptarse sin problema al hábitat en el que se encuentren.
                   </p>
                   <Link to="/suculentas">
                     <Button color="orange" fluid size="small" circular >
