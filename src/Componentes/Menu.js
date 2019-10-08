@@ -3,8 +3,8 @@ import { Input, Menu, GridColumn } from 'semantic-ui-react'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import Formulario from './Formulario'
 import Suculentas from './Suculentas'
-import Animales from './Animales'
 import Galeria from './Galeria/Galeria'
+import Inicio from './Inicio'
 import { Container, Grid } from 'semantic-ui-react'
 
 
@@ -18,10 +18,10 @@ export default class MenuPointing extends Component {
 
     return (
       <Router>
-        <Menu pointing secondary size='large'>
+        <Menu pointing secondary size='large' attached='top'style={{backgroundColor:"#01003B"}} inverted >
         <Link to="/">
           <Menu.Item
-            name='principal'
+            name='Inicio'
             active={activeItem === 'principal'}
             onClick={this.handleItemClick}
           />
@@ -40,6 +40,7 @@ export default class MenuPointing extends Component {
             onClick={this.handleItemClick}
           />
         </Link>
+
         <Link to="/cactus">
           <Menu.Item
             name='cactus'
@@ -59,7 +60,7 @@ export default class MenuPointing extends Component {
         </Menu>
 
         <Switch>
-            <Route path="/" exact component={Animales}/>
+            <Route path="/" exact component={Inicio}/>
         </Switch>
 
         <Switch>
@@ -78,7 +79,7 @@ export default class MenuPointing extends Component {
 
         <Switch>
             <Route path="/cactus">
-              <Animales/>
+               
             </Route>
         </Switch>
 
