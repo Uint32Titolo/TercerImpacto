@@ -40,6 +40,7 @@ export default class MenuPointing extends Component {
             onClick={this.handleItemClick}
           />
         </Link>
+
         <Link to="/cactus">
           <Menu.Item
             name='cactus'
@@ -47,6 +48,9 @@ export default class MenuPointing extends Component {
             onClick={this.handleItemClick}
           />
         </Link>
+
+
+
         </Menu>
 
         <Switch>
@@ -72,6 +76,7 @@ export default class MenuPointing extends Component {
               <Inicio/>
             </Route>
         </Switch>
+
 
       </Router>
     )

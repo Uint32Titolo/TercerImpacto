@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
-import { Menu } from 'semantic-ui-react'
-import { Responsive, Button,List, Form,Grid,Header, Message,Segment,  Container,  Divider,  Image,} from 'semantic-ui-react';
+import {  Button,List, Form,Grid,Header, Message,Segment,  Container,  Divider,  Image,} from 'semantic-ui-react';
 import Suculentas from '../Imagenes/Suculentas.jpeg'
 import Cactuss from '../Imagenes/cactuss.jpg'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import '../App.css'
-import {Jumbotron} from 'reactstrap'
+
 import Foteer from '../Componentes/Footer'
-//document.body.style = 'background: #212121;' ;
-//document.body.style.background="#f3f3f3 url('src\Imagenes\Wallpaper.jpg') no-repeat right top";
+//document.body.style = 'background: #212121;';
 
 const HomePag=() => (
       
