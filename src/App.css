@@ -7,3 +7,8 @@
           height:200px;
   
 }
+.Fondo{
+  background-image: url(Imagenes\Wallpaper.jpg);
+  
+  background-size: 100% 100%
+}

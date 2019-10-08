@@ -4,13 +4,14 @@ import Suculentas from '../Imagenes/Suculentas.jpeg'
 import Cactuss from '../Imagenes/cactuss.jpg'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import '../App.css'
-
 import Foteer from '../Componentes/Footer'
 //document.body.style = 'background: #212121;';
 
 const HomePag=() => (
       
       <Grid centered columns={1} padded >
+        <div class="Fondo">
+        
         <Grid.Column>
 
           <Header as="h1" textAlign="center" color='green' style={{ fontSize: '3.5em',  paddingTop: '0.5em' }} >
@@ -67,6 +68,7 @@ const HomePag=() => (
           </Grid>
          
         </Grid.Column>
+        </div>
         <Foteer/>
       </Grid>
        
