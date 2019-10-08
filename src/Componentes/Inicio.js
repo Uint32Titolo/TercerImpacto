@@ -5,21 +5,13 @@ import Suculentas from '../Imagenes/Suculentas.jpeg'
 import Cactuss from '../Imagenes/cactuss.jpg'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import '../App.css'
-
-
+import {Jumbotron} from 'reactstrap'
+import Foteer from '../Componentes/Footer'
 //document.body.style = 'background: #212121;' ;
+//document.body.style.background="#f3f3f3 url('src\Imagenes\Wallpaper.jpg') no-repeat right top";
 
-
-
-export default class DesktopContainer extends Component {
-
-  state = { activeItem: 'home' }
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
-  
-  render() {
-    const { activeItem } = this.state
-
-    return (
+const HomePag=() => (
+      
       <Grid centered columns={1} padded >
         <Grid.Column>
 
@@ -37,7 +29,7 @@ export default class DesktopContainer extends Component {
                       Las plantas suculentas son aquellas en las que algún órgano o parte se ha modificado en una nueva especialización que permite el almacenamiento de agua en cantidades mucho mayores que en el resto de las plantas.
                     </p>
                     <Link to="/suculentas"> 
-                      <Button color="orange" fluid size="small" circular active={activeItem === 'suculentas'} onClick={this.handleItemClick}>
+                      <Button color="orange" fluid size="small" circular >
                         Conocer Más
                       </Button>
                     </Link>
@@ -52,7 +44,7 @@ export default class DesktopContainer extends Component {
                    Los cactus conforman la familia de plantas suculentas denominada Cactaceae. Estas especies, como buenas crasas que son, se caracterizan por acumular agua y nutrientes en sus tejidos, así, pueden adaptarse sin problema al hábitat en el que se encuentren.
                   </p>
                   <Link to="/suculentas">
-                    <Button color="orange" fluid size="small" circular active={activeItem === 'suculentas'} onClick={this.handleItemClick}>
+                    <Button color="orange" fluid size="small" circular >
                         Conocer Más
                     </Button>
                   </Link>
@@ -64,10 +56,10 @@ export default class DesktopContainer extends Component {
                 <Segment as="h3" color='#212121' inverted >
                   <img src={Suculentas} width="100%; " vspace="10"/>
                   <p style={{fontSize: '0.9em', paddingBottom: '1em'}}>
-                    buena buenadd buena buena buena buena buena buena buenab uen usandasd
+                   La Galeria está llena de fotos sobre la naturaleza en especial nuestras queridas suculentas
                   </p>
                   <Link to="/suculentas">
-                    <Button color="orange" fluid size="small" circular active={activeItem === 'suculentas'} onClick={this.handleItemClick}>
+                    <Button color="orange" fluid size="small" circular >
                       Conocer Más
                     </Button>
                   </Link>
@@ -75,12 +67,13 @@ export default class DesktopContainer extends Component {
               </Grid.Column>
 
           </Grid>
-      
+         
         </Grid.Column>
+        <Foteer/>
       </Grid>
+       
     )
-  }
-}
+    export default HomePag
 
 
 
